@@ -21,6 +21,10 @@
 		006324C61887A6FE000FC1DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006324A81887A6FE000FC1DD /* UIKit.framework */; };
 		006324CE1887A6FE000FC1DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 006324CC1887A6FE000FC1DD /* InfoPlist.strings */; };
 		006324D01887A6FE000FC1DD /* PlayMusicEx01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 006324CF1887A6FE000FC1DD /* PlayMusicEx01Tests.m */; };
+		006324DA1887A802000FC1DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006324D91887A802000FC1DD /* AVFoundation.framework */; };
+		006324DE1887AE72000FC1DD /* music01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 006324DB1887AE72000FC1DD /* music01.mp3 */; };
+		006324DF1887AE72000FC1DD /* music02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 006324DC1887AE72000FC1DD /* music02.mp3 */; };
+		006324E01887AE72000FC1DD /* music03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 006324DD1887AE72000FC1DD /* music03.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		006324CB1887A6FE000FC1DD /* PlayMusicEx01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayMusicEx01Tests-Info.plist"; sourceTree = "<group>"; };
 		006324CD1887A6FE000FC1DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		006324CF1887A6FE000FC1DD /* PlayMusicEx01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMusicEx01Tests.m; sourceTree = "<group>"; };
+		006324D91887A802000FC1DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		006324DB1887AE72000FC1DD /* music01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music01.mp3; path = ../../../../Downloads/music01.mp3; sourceTree = "<group>"; };
+		006324DC1887AE72000FC1DD /* music02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music02.mp3; path = ../../../../Downloads/music02.mp3; sourceTree = "<group>"; };
+		006324DD1887AE72000FC1DD /* music03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music03.mp3; path = ../../../../Downloads/music03.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006324DA1887A802000FC1DD /* AVFoundation.framework in Frameworks */,
 				006324A71887A6FE000FC1DD /* CoreGraphics.framework in Frameworks */,
 				006324A91887A6FE000FC1DD /* UIKit.framework in Frameworks */,
 				006324A51887A6FE000FC1DD /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		006324A31887A6FE000FC1DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				006324D91887A802000FC1DD /* AVFoundation.framework */,
 				006324A41887A6FE000FC1DD /* Foundation.framework */,
 				006324A61887A6FE000FC1DD /* CoreGraphics.framework */,
 				006324A81887A6FE000FC1DD /* UIKit.framework */,
@@ -112,6 +122,9 @@
 		006324AA1887A6FE000FC1DD /* PlayMusicEx01 */ = {
 			isa = PBXGroup;
 			children = (
+				006324DB1887AE72000FC1DD /* music01.mp3 */,
+				006324DC1887AE72000FC1DD /* music02.mp3 */,
+				006324DD1887AE72000FC1DD /* music03.mp3 */,
 				006324B31887A6FE000FC1DD /* AppDelegate.h */,
 				006324B41887A6FE000FC1DD /* AppDelegate.m */,
 				006324B61887A6FE000FC1DD /* Main.storyboard */,
@@ -228,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006324DF1887AE72000FC1DD /* music02.mp3 in Resources */,
 				006324BD1887A6FE000FC1DD /* Images.xcassets in Resources */,
 				006324AF1887A6FE000FC1DD /* InfoPlist.strings in Resources */,
 				006324B81887A6FE000FC1DD /* Main.storyboard in Resources */,
+				006324DE1887AE72000FC1DD /* music01.mp3 in Resources */,
+				006324E01887AE72000FC1DD /* music03.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
